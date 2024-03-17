@@ -6,17 +6,19 @@
 
 1. Set up venv
 
-    # Install 
-    apt install python3.10-venv
+```
+# Install 
+apt install python3.10-venv
 
-    # create
-    python3 -m venv .venv
+# create
+python3 -m venv .venv
 
-    # activate (Linux way)
-    . .venv/bin/activate
+# activate (Linux way)
+. .venv/bin/activate
 
-    # turn off
-    deactivate
+# turn off
+deactivate
+```
 
 
 2. Install dependencies
