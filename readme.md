@@ -23,7 +23,7 @@ deactivate
 
 2. Install dependencies
 
-    pip isntall -r requirements.txt
+    pip install -r requirements.txt
 
 
 3. Run
@@ -48,6 +48,17 @@ deactivate
 ## Running with Shell script
 
    ./run.sh
+
+
+## Running into the EC2 isntance
+
+sudo apt install python3-pip
+pip install -r requirements.txt
+sudo apt install uvicorn
+uvicorn app.main:app
+
+
+
 
 
 ## Testing
