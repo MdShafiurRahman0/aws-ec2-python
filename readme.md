@@ -52,11 +52,14 @@ deactivate
 
 ## Running into the EC2 isntance
 
-sudo apt install python3-pip
-pip install -r requirements.txt
-sudo apt install uvicorn
-uvicorn app.main:app
+    sudo apt-get update
+    sudo apt-get upgrade
+    sudo apt install python3-pip
+    pip install -r requirements.txt
+    sudo apt install uvicorn
+    uvicorn app.main:app
 
+    uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 
 
